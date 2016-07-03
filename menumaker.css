@@ -126,6 +126,14 @@
   width: 210px;
   top: 100%;
   left: 0;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
 }
 #cssmenu.align-right .has-sub ul {
   left: auto;
@@ -158,6 +166,8 @@
   position: absolute;
   left: 100%;
   top: 0;
+    max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
 }
 #cssmenu.align-right .has-sub .has-sub ul,
 #cssmenu.align-right ul ul ul {
