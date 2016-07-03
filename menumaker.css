@@ -115,23 +115,10 @@
   background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
 }
 #cssmenu .has-sub {
-    position:absolute;
-    left:0;
-    top:36px;
-    z-index:1;
-    max-height:0;
-    overflow:hidden;
-    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
-    -webkit-transform-origin:50% 0;
-    -webkit-transition:350ms;
-    -moz-transition:350ms;
-    -o-transition:350ms;
-    transition:350ms;
+  z-index: 1;
 }
 #cssmenu .has-sub:hover > ul {
   display: block;
-max-height:1000px;
-    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
 }
 #cssmenu .has-sub ul {
   display: none;
