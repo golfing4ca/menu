@@ -131,10 +131,10 @@
     visibility:hidden;
     opacity:0;
     filter:alpha(opacity=0);
-    -webkit-transition:1000ms ease;
-    -moz-transition:1000ms ease;
-    -o-transition:1000ms ease;
-    transition:1000ms ease;
+    -webkit-transition:800ms ease;
+    -moz-transition:800ms ease;
+    -o-transition:800ms ease;
+    transition:800ms ease;
 }
 #cssmenu.align-right .has-sub ul {
   left: auto;
@@ -173,10 +173,10 @@
     visibility:hidden;
     opacity:0;
     filter:alpha(opacity=0);
-    -webkit-transition:1000ms ease;
-    -moz-transition:1000ms ease;
-    -o-transition:1000ms ease;
-    transition:1000ms ease;
+    -webkit-transition:800ms ease;
+    -moz-transition:800ms ease;
+    -o-transition:800ms ease;
+    transition:800ms ease;
 }
 #cssmenu.align-right .has-sub .has-sub ul,
 #cssmenu.align-right ul ul ul {
