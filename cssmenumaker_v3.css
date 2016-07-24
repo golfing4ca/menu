@@ -78,7 +78,7 @@
 }
 
 #cssmenu > ul > li > a {
-  padding: 20px;
+  padding: 17px;
   font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
@@ -96,12 +96,12 @@
 }
 
 #cssmenu > ul > li.has-sub > a {
-  padding-right: 25px;
+  padding-right: 22px;
 }
 
 #cssmenu > ul > li.has-sub > a::after {
   position: absolute;
-  top: 22px;
+  top: 19px;
   right: 10px;
   width: 4px;
   height: 4px;
