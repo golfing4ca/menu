@@ -1,9 +1,3 @@
-/*
-Menu contains custom CSS, different than that on the cssmenumaker.com site. 
-Only use the cssmenumaker.com builder to change menu items. Copy HTML only as a single
-embedded object in PageCloud.  PageCloud is already linked to the CSS file on github.
-UPDATE AND COPY ONLY HTML TO PAGECLOUD
-*/
 $("#cssmenu").menumaker({
   title: "Menu",
   breakpoint: 768,
